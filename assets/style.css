@@ -4,7 +4,7 @@
   margin: auto;
 }
 .bg_lightgrey{
-  background-color: #ededed;
+  background-color: #f3f5f9;
 }
 .bg_white{
   background-color: white;
@@ -20,7 +20,6 @@
   margin-top: 10px;
 }
 section{
-  height: 300px;
   border: 1px solid black;
 }
 
@@ -51,6 +50,7 @@ section{
   font-size: 60px;
   padding-right: 10px;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 .hero_text p{
   font-size: 20px;
@@ -61,6 +61,7 @@ section{
 form{
   border-radius: 10px;
   margin-top: 75px;
+  margin-bottom: 20px;
 }
 form h3{
   text-align: center;
@@ -112,18 +113,71 @@ form h3{
   left: 2%;
   transform: translateY(-50%);
 }
+.text-center{
+  margin: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.text-center a{
+  text-decoration: underline;
+}
 /* fine header */
 
 
 /* inizio main */
 /* main_one */
-
+.main_one h5{
+  color: grey;
+  font-weight: bold;
+  margin: 30px;
+}
+.comunication_mark img{
+  width: 15%;
+}
+.main_one a{
+  font-size: 15px;
+  text-decoration: none;
+}
 /* fine main_one */
 
 /* main_two */
+.text_main_two h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #031c4e;
+}
+.text_main_two p{
+  font-size: 17px;
+  color: #5c6a88;
+  padding: 0px 80px;
+}
+.links_left_main_two{
+  margin-top: 50px;
+}
+.links_left_main_two li{
+  list-style: none;
+  padding: 15px;
+  border-left: 1px solid #75809a;
+}
+.links_left_main_two li a{
+  color: #75809a;
+  font-weight: bold;
+}
+.box_links_main{
+  margin-top: 50px;
+}
+.box_links_main h5{
+  color: #031c4e;
+  font-weight: bold;
+}
+.box_links_main p{
+  color: #75809a;
+  font-weight: bold;
+}
 /* fine main_two */
 
 /* main_three */
+
 /* fine main_three */
 
 /* main_four */
