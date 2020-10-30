@@ -1,5 +1,12 @@
 /* utility */
-
+.margin_body{
+  width: 80%;
+  margin: auto;
+  background-color: black;
+}
+.bg_lightgrey{
+  background-color: #ededed;
+}
 /* utility */
 
 
@@ -23,6 +30,12 @@
 
 /* main_five */
 /* fine main_five */
+
+/* main_six */
+/* fine main_six */
+
+/* main_seven */
+/* fine main_seven */
 /* fine main */
 
 
