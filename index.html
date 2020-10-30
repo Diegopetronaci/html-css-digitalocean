@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- inizio header -->
     <header>
       <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="">
+        <div class="margin_body">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -22,46 +22,89 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <div class="nav navbar-nav navbar-left col-lg-3">
+            <div class="nav navbar-nav navbar-left col-lg-2">
               <img src="" alt="logo_digitalocean">
             </div>
           </div>
 
-          <div class="collapse navbar-collapse" id="">
+          <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right col-lg-4">
-              <li><a href="#">PORTFOLIO</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">CONTACT</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Login</a></li>
+              <li><a id="btn_blue"href="#">Sign Up</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right col-lg-5">
-              <li><a href="#">PORTFOLIO</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">CONTACT</a></li>
-              <li><a href="#">CONTACT</a></li>
+            <ul class="nav navbar-nav navbar-right col-lg-6">
+              <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Costumers</a></li>
+              <li><a href="#">Community <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Princing</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
 
         </div><!-- /.margin_body -->
       </nav>
 
+      <nav class="navbar navbar-default">
+        <div class="margin_body">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="nav navbar-nav navbar-left col-lg-2">
+              <img src="" alt="logo_digitalocean">
+            </div>
+          </div>
+
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right col-lg-5">
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Login</a></li>
+              <li><a id="btn_blue"href="#">Sign Up</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right col-lg-5">
+              <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Costumers</a></li>
+              <li><a href="#">Community <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Princing</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+
+        </div><!-- /.margin_body -->   <!--serve solo per lasciare lo spazio-->
+      </nav>
+
       <div class="hero_image">
         <div class="margin_body">
           <div class="row">
-            <div class="Hero_text col-lg-7 col-xs-12">
-              <h1></h1>
-              <p></p>
+            <div class="hero_text col-lg-7 col-xs-12">
+              <h1 class="color_white">The simplest cloud platform for developers & teams</h1>
+              <p class="color_white"> Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, wheter you're running one virtual machine or ten thousand.</p>
             </div>
 
-            <form class="col-lg-5 col-xs-12" action="index.html" method="post">
+            <form class="bg_white col-lg-5 col-xs-12" action="index.html" method="post">
               <div class="form_hero_image">
-                <h3></h3>
-                <h3 class="color_blue"></h3>
+                <h3>Deploy your app in seconds.
+                  <div class="color_blue">Get started now.</div>
+                </h3>
+
               </div>
-              <input type="email" name="email" placeholder="Email" value="">
-              <input type="password" name="password" placeholder="Password" value="">
-              <a href="#"></a>
-              <a href="#"></a>
+              <div class="input_area">
+                <input class="input" type="email" name="email" placeholder="Email" value="">
+              </div>
+              <div class="input_area">
+                <input class="input" type="password" name="password" placeholder="Password" value="">
+              </div>
+              <div class="btn_account bg_azzurro">
+                <a class="color_white" href="#">Create your account</a>
+              </div>
+              <div class="btn_google">
+                <i class="fab fa-google"></i>
+                <a class="color_black" href="#">Sign up with google</a>
+              </div>
               <p>
                 <a href="#"></a>
               </p>

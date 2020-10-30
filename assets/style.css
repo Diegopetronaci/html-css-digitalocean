@@ -2,21 +2,122 @@
 .margin_body{
   width: 80%;
   margin: auto;
-  background-color: black;
 }
 .bg_lightgrey{
   background-color: #ededed;
+}
+.bg_white{
+  background-color: white;
+}
+.navbar-default .navbar-nav > li > a{
+  color: #000;
+}
+#btn_blue{
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+section{
+  height: 300px;
+  border: 1px solid black;
+}
+
+.color_white{
+  color: white;
+}
+.color_black{
+  color: black;
+}
+.color_blue{
+  color: blue;
+}
+.bg_azzurro{
+ background-color: #579aff;
 }
 /* utility */
 
 
 /* inizio header */
-
+.hero_image{
+  width: 100%;
+  background-image: url(img/hero_image.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero_text h1{
+  margin-top: 75px;
+  font-size: 60px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+.hero_text p{
+  font-size: 20px;
+  padding-right: 50px;
+  font-weight: 300;
+  margin-bottom: 75px;
+}
+form{
+  border-radius: 10px;
+  margin-top: 75px;
+}
+form h3{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 27px;
+  line-height: 40px;
+  padding: 25px;
+  margin-top: 15px;
+}
+.input_area{
+  padding: 5px;
+}
+.input{
+  width: 100%;
+  padding: 5px;
+  font-weight: bold;
+}
+.btn_account{
+  margin: auto;
+  width: 98%;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0px;
+  margin-bottom: 5px;
+}
+.btn_account:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.btn_google{
+  margin: auto;
+  width: 98%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0px;
+  box-shadow: 3px 3px grey;
+  position: relative;
+}
+.btn_google:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.btn_google i{
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+}
 /* fine header */
 
 
 /* inizio main */
 /* main_one */
+
 /* fine main_one */
 
 /* main_two */
