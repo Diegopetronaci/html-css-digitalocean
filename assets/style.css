@@ -19,6 +19,13 @@
   padding: 5px;
   margin-top: 10px;
 }
+#btn_white{
+  color: blue;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
 section{
   border: 1px solid black;
 }
@@ -34,6 +41,19 @@ section{
 }
 .bg_azzurro{
  background-color: #579aff;
+}
+
+.pl_15{
+  padding-left: 15px;
+}
+.pr_15{
+  padding-right: 15px;
+}
+.pb_25{
+  padding-bottom: 25px;
+}
+.pt_25{
+  padding-top: 25px;
 }
 /* utility */
 
@@ -177,10 +197,12 @@ form h3{
 /* fine main_two */
 
 /* main_three */
-.img_main_three img{
+.img_main_three img, .img_main_six img{
   margin:auto;
   width: 50%;
   background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .icon_under_carosello{
   color: blue;
@@ -188,16 +210,58 @@ form h3{
 /* fine main_three */
 
 /* main_four */
-
+.main_four img{
+  margin-top: 25px;
+}
+.main_four h2{
+  font-weight: bold;
+}
+.main_four h5{
+  font-size: 20px;
+}
+.main_four p{
+  font-size: 13px;
+}
+.main_four a{
+  font-size: 13px;
+  text-decoration: none;
+}
 /* fine main_four */
 
 /* main_five */
+.bg_radiant_blue{
+  background: linear-gradient(#0043c1, #00219c);
+  padding-bottom: 50px;
+}
+.box_destination{
+  font-size: 11px;
+}
+.box_destination a{
+  color: #00d5d2;
+}
+.main_five span{
+  font-weight: bold;
+}
 /* fine main_five */
 
 /* main_six */
+/* uguale a main_three */
 /* fine main_six */
 
 /* main_seven */
+.main_seven h2{
+  margin-top: 30px;
+  font-size: 40px;
+}
+.main_seven span{
+  font-size: 20px;
+}
+.main_seven span a{
+  text-decoration: none;
+}
+#btn_white:hover{
+  cursor: pointer;
+}
 /* fine main_seven */
 /* fine main */
 
