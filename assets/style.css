@@ -304,11 +304,15 @@ form h3{
   bottom: 5%;
   right: 2%;
 }
+.aggiunta:hover{
+  cursor: pointer;
+}
 .img_avatar{
   float: right;
   height: 50px;
   width: 50px;
-  background-color: yellow;
+  background-image: url(img/avatar_shark.jpg);
+  background-size: cover;
 }
 .message_avatar{
   float: right;
@@ -326,10 +330,6 @@ form h3{
   line-height: 23px;
   vertical-align: middle;
 }
-.img_avatar{
-  background-image: url(img/avatar_shark.jpg);
-  background-size: cover;
-}
 .frecciettina_avatar{
   position: absolute;
   top:30%;
@@ -338,3 +338,24 @@ form h3{
   font-size: 30px;
 }
 /* fine aggiunta */
+
+@media all and (max-width: 768px) {
+  .aggiunta{
+    left: 5%;
+    bottom: 15%;
+  }
+  .img_avatar{
+    float: left;
+    margin left: 5px;
+  }
+  .message_avatar{
+    float: left;
+    margin: 14px;
+    margin-right: 25px;
+    position: relative;
+    left: -5%;
+  }
+  .frecciettina_avatar{
+    display: none;
+  }
+}
