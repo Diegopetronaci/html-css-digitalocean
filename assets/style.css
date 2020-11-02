@@ -3,6 +3,9 @@
   width: 80%;
   margin: auto;
 }
+section{
+  padding-bottom: 100px;
+}
 .bg_lightgrey{
   background-color: #f3f5f9;
 }
@@ -25,9 +28,6 @@
   border-radius: 5px;
   padding: 10px;
   margin-top: 10px;
-}
-section{
-  border: 1px solid black;
 }
 
 .color_white{
@@ -65,10 +65,28 @@ section{
 .pt_100{
   padding-top: 100px;
 }
+
+.position_relative{
+
+}
+.text_main_two h2, .main_three h2, .main_four h2, .main_six h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: #031c4e;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 /* utility */
 
 
 /* inizio header */
+.navbar img{
+  margin-top: 20%;
+  height: 30px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #007afd;
+}
 .hero_image{
   width: 100%;
   background-image: url(img/hero_image.svg);
@@ -171,12 +189,7 @@ form h3{
 /* fine main_one */
 
 /* main_two */
-.text_main_two h2{
-  font-size: 40px;
-  font-weight: bold;
-  color: #031c4e;
-}
-.text_main_two p{
+.text_main_two p, .main_three p{
   font-size: 17px;
   color: #5c6a88;
   padding: 0px 80px;
@@ -207,6 +220,10 @@ form h3{
 /* fine main_two */
 
 /* main_three */
+.carosello i{
+  font-size: 25px;
+  padding: 15px;
+}
 .img_main_three img, .img_main_six img{
   margin:auto;
   width: 50%;
@@ -222,9 +239,6 @@ form h3{
 /* main_four */
 .main_four img{
   margin-top: 25px;
-}
-.main_four h2{
-  font-weight: bold;
 }
 .main_four h5{
   font-size: 20px;
@@ -340,9 +354,16 @@ form h3{
 /* fine aggiunta */
 
 @media all and (max-width: 768px) {
+  .navbar img{
+    margin-top: 0%;
+    height: 30px;
+  }
+  .hero_text h1{
+    font-size: 30px;
+  }
   .aggiunta{
     left: 5%;
-    bottom: 15%;
+    bottom: 25%;
   }
   .img_avatar{
     float: left;
