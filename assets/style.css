@@ -5,6 +5,8 @@
 }
 section{
   padding-bottom: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .bg_lightgrey{
   background-color: #f3f5f9;
@@ -76,12 +78,14 @@ section{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.text_center{
+  text-align: center;
+}
 /* utility */
 
 
 /* inizio header */
 .navbar img{
-  margin-top: 20%;
   height: 30px;
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -177,7 +181,7 @@ form h3{
 .main_one h5{
   color: grey;
   font-weight: bold;
-  margin: 30px;
+  padding: 30px;
 }
 .comunication_mark img{
   width: 15%;
